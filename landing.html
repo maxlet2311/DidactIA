@@ -379,12 +379,29 @@
       color: var(--gray-soft);
     }
 
-    .hero-visual .chip-1 .pill { background: var(--blue); }
-    .hero-visual .chip-2 .pill { background: var(--orange); }
-    .hero-visual .chip-3 .pill { background: var(--blue-deep); }
-    .hero-visual .chip-4 .pill { background: #16A34A; }
-    .hero-visual .chip-5 .pill { background: var(--orange); }
-    .hero-visual .chip-6 .pill { background: var(--blue); }
+    .hero-visual .chip-1 .pill {
+      background: var(--blue);
+    }
+
+    .hero-visual .chip-2 .pill {
+      background: var(--orange);
+    }
+
+    .hero-visual .chip-3 .pill {
+      background: var(--blue-deep);
+    }
+
+    .hero-visual .chip-4 .pill {
+      background: #16A34A;
+    }
+
+    .hero-visual .chip-5 .pill {
+      background: var(--orange);
+    }
+
+    .hero-visual .chip-6 .pill {
+      background: var(--blue);
+    }
 
     .ws-row {
       display: flex;
@@ -1385,7 +1402,7 @@
         <img src="assets/logo-didactia.png" alt="DidactIA">
       </a>
       <ul>
-        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#servicios">Soluciones</a></li>
         <li><a href="#muestras">Muestras</a></li>
         <li><a href="#proceso">Cómo trabajamos</a></li>
         <li><a href="#contacto">Contacto</a></li>
@@ -1405,7 +1422,8 @@
     <div class="wrap hero-grid">
       <div class="reveal">
         <span class="eyebrow">AYUDAMOS DOCENTES</span>
-        <h1>Sabemos que el <span style="color:var(--blue)">tiempo</span> tiene que <span style="color:var(--blue)">jugar a tu favor</span>.<br>
+        <h1>Sabemos que el <span style="color:var(--blue)">tiempo</span> tiene que <span style="color:var(--blue)">jugar
+            a tu favor</span>.<br>
           Diseñamos el material didáctico que tu próxima clase necesita.</h1>
         <p class="promise">Diseñamos, con IA y criterio docente, las evaluaciones, actividades y gamificaciones
           puntuales que te faltan — sin que pierdas tu estilo de enseñanza.</p>
@@ -1520,7 +1538,7 @@
     <div class="divider"></div>
     <div style="display:flex;align-items:center;gap:18px">
       <div class="metric-num">48h</div>
-      <div class="metric-label">tiempo promedio<br>de entrega de un<br>material puntual</div>
+      <div class="metric-label">tiempo promedio<br>de entrega de un<br>recurso puntual</div>
     </div>
     <div class="divider"></div>
     <div style="display:flex;align-items:center;gap:18px">
@@ -1749,7 +1767,8 @@
                   · Bio 6°</span>
                 <div
                   style="display:flex;align-items:center;gap:4px;background:rgba(255,255,255,.55);border-radius:999px;padding:3px 8px;font-size:9px;font-weight:900;color:#1F5B33">
-                  <span style="font-size:11px">🧬</span> 420 XP</div>
+                  <span style="font-size:11px">🧬</span> 420 XP
+                </div>
               </div>
               <div style="padding:4px 12px 6px;text-align:center">
                 <div style="font-size:9px;color:#1F5B33;font-weight:800;letter-spacing:.06em;text-transform:uppercase">
@@ -1919,7 +1938,8 @@
                 <path d="M12 7v5l3 2" />
               </svg>
             </span>
-            <div><b>"No me da el tiempo para armar algo distinto."</b><br><span>Te entregamos material listo en pocos días,
+            <div><b>"No me da el tiempo para armar algo distinto."</b><br><span>Te entregamos material listo en pocos
+                días,
                 por tema puntual.</span></div>
           </li>
           <li>
@@ -2100,7 +2120,8 @@
             placeholder="Contame el tema, fechas y formato (evaluación, actividad, presentación...)"></textarea>
           <button class="submit" type="submit">Enviar consulta</button>
         </form>
-        <div class="ok">✓ ¡Listo! Te respondemos a la brevedad por mail. Si querés, mientras tanto, escribinos también por
+        <div class="ok">✓ ¡Listo! Te respondemos a la brevedad por mail. Si querés, mientras tanto, escribinos también
+          por
           WhatsApp.</div>
       </div>
     </div>
@@ -2206,7 +2227,7 @@
   <script>
     // ─── Config: edit your WhatsApp number here ───────────────────────────────
     const WA_NUMBER = '5491128271988';
-    const WA_TEXT = '¡Hola! Vi tu landing de DidactIA y me gustaría pedirte material para una clase.';
+    const WA_TEXT = '¡Hola! Me gustaría ponerme en contacto con ustedes para solicitar asesoramiento sobre material didáctico.';
     const WA_LINK = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(WA_TEXT)}`;
 
     document.querySelectorAll('#wa-hero, #wa-cta, #wa-float, #wa-footer, #wa-footer-link').forEach(el => {
